@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/*Header*/
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 2em;
+    margin: 1em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+}
+
+.title span{
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+}
+
+/* Buttons */
+
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent{
+    color: black;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    background: black;
+    color: white;
+}
+
+@media(min-width: 60rem){
+    .button{
+        font-size: 1.5rem;
+    }
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+}
+
+nav a:hover,
+nav a:focus{
+    color: white;
+}
+
+@media (min-width:60rem){
+    .title{
+        font-size: 4rem;
+    }
+
+    /*nav{
+        float: right;
+    }*/
+}
+
+/* Home hero */
+.home-hero{
+    background: url(HCI_Project_Images/poster2.jpg);
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    padding: 10em 0;
+    margin-bottom: 1em;
+    color: black;
+
+}
+
+@media (min-width: 60rem){
+    .home-hero{
+        height: 100vh;
+        padding-top: 35vh;
+    }
+}
+
+/* Home works */
+.home-works{
+    background: url(HCI_Project_Images/poster2.jpg);
+    /*background-color: #e87119;*/
+    margin: 0 auto;
+    padding: 1em 0;
+    left: 0;
+    right: 0;
+}
+
+.pageTitle{
+    position: absolute;
+    margin-top: 11em;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+
+#wrap1{
+    position: absolute;
+    width: 100%;
+    margin-top: 17em;
+}
+
+#wrap2{
+    position: absolute;
+    width: 100%;
+    margin-top: 34em;
+}
+
+#wrap3{
+    position: absolute;
+    width: 100%;
+    margin-top: 51em;
+}
+
+#wrap4{
+    position: absolute;
+    width: 100%;
+    margin-top: 68em;
+}
+
+#wrap5{
+    position: absolute;
+    width: 100%;
+    margin-top: 85em;
+}
+
+#wrap6{
+    position: absolute;
+    width: 100%;
+    margin-top: 102em;
+}
+
+#wrap7{
+    position: absolute;
+    width: 100%;
+    margin-top: 119em;
+}
+
+#wrap8{
+    position: absolute;
+    width: 100%;
+    margin-top: 136em;
+}
+
+#wrap9{
+    position: absolute;
+    width: 100%;
+    margin-top: 153em;
+}
+
+#wrap10{
+    position: absolute;
+    width: 100%;
+    margin-top: 170em;
+    margin-bottom: 2em;
+}
+
+.left1{
+    /*width: 17.5%;*/
+    /*margin-left: 2%;*/
+    margin-left: 15%;
+    background-color: #e87119;
+    height: 240px;
+    float: left;
+    /*content: url(HCI_Project_Images/year_of_the jungle.jpg);*/
+    border-style: solid;
+}
+
+.right1{
+    /*width: 81.5%;*/
+    background-color: #e87119;
+    height: 240px;
+    margin-left: 33%;
+    margin-right: 15%;
+    /*float: right;*/
+    border-style: solid;
+    outline: 2px solid;
+    outline-offset: -1.5em;
+    padding: 2em;
+}
+
+#bioWrap1{
+    position: absolute;
+    width: 100%;
+    margin-top: 17em;
+}
+
+#bioWrap2{
+    position: absolute;
+    width: 100%;
+    margin-top: 50em;
+}
+
+.bioPic{
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.bioText{
+     /*width: 81.5%;*/
+     background-color: #e87119;
+     margin-left: 33%;
+     margin-right: 5%;
+     /*float: right;*/
+     border-style: solid;
+     padding: 2em;
+     font-weight: 700;
+     margin-bottom: 2em;
+     text-align: left;
+}
+
+#intWrap1{
+    position: absolute;
+    width: 100%;
+    margin-top: 17em;
+}
+
+#intWrap2{
+    position: absolute;
+    width: 100%;
+    margin-top: 35.7em;
+}
+
+#intWrap3{
+    position: absolute;
+    width: 100%;
+    margin-top: 52em;
+}
+
+#intWrap4{
+    position: absolute;
+    width: 100%;
+    margin-top: 70.7em;
+}
+
+#intWrap5{
+    position: absolute;
+    width: 100%;
+    margin-top: 87em;
+}
+
+#intWrap6{
+    position: absolute;
+    width: 100%;
+    margin-top: 108em;
+}
+
+#intWrap7{
+    position: absolute;
+    width: 100%;
+    margin-top: 125.5em;
+}
+
+#intWrap8{
+    position: absolute;
+    width: 100%;
+    margin-top: 143em;
+}
+
+#intWrap9{
+    position: absolute;
+    width: 100%;
+    margin-top: 160.5em;
+}
+
+#intWrap10{
+    position: absolute;
+    width: 100%;
+    margin-top: 191.5em;
+}
+
+#intWrap11{
+    position: absolute;
+    width: 100%;
+    margin-top: 209em;
+}
+
+#intWrap12{
+    position: absolute;
+    width: 100%;
+    margin-top: 225.4em;
+}
+
+#intWrap13{
+    position: absolute;
+    width: 100%;
+    margin-top: 250.8em;
+}
+
+.question{
+    background-color: #e87119;
+    border-style: solid;
+    padding: 2em;
+    font-weight: 700;
+    text-align: left;
+    outline: 2px solid;
+    outline-offset: -1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.answer{
+    background-color: black;
+    border-style: solid #e87119;
+    padding: 2em;
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-align: left;
+    outline: 2px solid #e87119;
+    outline-offset: -1.5em;
+    color: #e87119;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li.questionMarker:before{
+    content: "Q) ";
+}
+
+ul.questionMarkerUL{
+    list-style-type: none;
+}
+
+li.answerMarker:before{
+    content: "A) ";
+}
+
+ul.answerMarkerUL{
+    list-style-type: none;
+}
